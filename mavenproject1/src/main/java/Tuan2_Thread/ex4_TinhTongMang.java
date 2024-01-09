@@ -15,7 +15,6 @@ public class ex4_TinhTongMang {
         int numThreads = 2;
         //mang luong
         Thread[] ths = new Thread[numThreads];
-//        
         SumCalculator[] cals = new SumCalculator[numThreads];
         for (int i = 0; i < numThreads; i++) {
             cals[i] = new SumCalculator(array, i, numThreads);
@@ -29,11 +28,10 @@ public class ex4_TinhTongMang {
             }
         }
         int totalSum = 0;
-        for (SumCalculator c:cals){
-        totalSum  += c.getTong1Phan();
+        for (SumCalculator c : cals) {
+            totalSum += c.getTong1Phan();
         }
         System.out.println("Tong la: " + totalSum);
-        
 
     }
 
