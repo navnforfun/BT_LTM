@@ -29,7 +29,7 @@ public class ex4_url2File {
             BufferedReader reader = new BufferedReader(
                     new InputStreamReader(urlConnection.getInputStream()));
             // tao doi tuong ghi
-              FileWriter fileWriter = new FileWriter("out.html");
+              FileWriter fileWriter = new FileWriter("out2.html");
             String line ="";
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);

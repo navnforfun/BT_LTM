@@ -1,6 +1,7 @@
 Tuan1_Network\ex3_ShowIpLocals.class
 Tuan3_Thread2\ex4.class
 Tuan2_Thread\SumCalculator.class
+Tuan5_ClientServer\ex2_Server.class
 Tuan4_Inet\ex1_inet.class
 Tuan2_Thread\ex1_Thread.class
 Tuan3_Thread2\ex2_Lock.class
@@ -9,6 +10,8 @@ Tuan3_Thread2\ex1_Sync.class
 Tuan2_Thread\ex2_Thread2.class
 Tuan2_Thread\ex4_TinhTongMang.class
 Tuan4_Inet\ex2_url.class
+Tuan5_ClientServer\ClientHandler.class
+Tuan5_ClientServer\ex1_Client.class
 Tuan2_Thread\ex3_ThreadLife.class
 Tuan1_Network\bai3.class
 Tuan3_Thread2\ex3_Counter.class
